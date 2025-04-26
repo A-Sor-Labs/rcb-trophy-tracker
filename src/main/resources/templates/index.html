@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>RCB Trophy Tracker</title>
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <img src="https://www.royalchallengers.com/logo.png" alt="RCB Logo" class="logo">
+    <h1>Years Without IPL Trophy</h1>
+
+    <div class="counter">
+        <span th:text="${years}">0</span> YEARS
+        <span th:text="${days}">0</span> DAYS
+    </div>
+
+    <div class="facts">
+        <p>🏏 3 Finals Lost | 🥇 0 Trophies | 😢 Endless Hope</p>
+    </div>
+</div>
+
+<script src="/js/timer.js"></script>
+</body>
+</html>

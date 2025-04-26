@@ -1,0 +1,30 @@
+body {
+    background: #000000;
+    color: #FF0000;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    padding: 50px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.counter {
+    font-size: 4em;
+    text-shadow: 0 0 10px #FF0000;
+    margin: 30px 0;
+}
+
+.counter span {
+    display: block;
+    font-size: 0.5em;
+    color: #FFFFFF;
+}
+
+.facts {
+    font-size: 1.2em;
+    color: #888888;
+    margin-top: 40px;
+}
